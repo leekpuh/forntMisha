@@ -1,0 +1,33 @@
+.Header {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 60px;
+  align-items: center;
+  background: white;
+  //background: #61dafb;
+  //justify-content: space-around;
+  .LoginButton {
+    display: flex;
+    width: 10%;
+  }
+}
+
+.CenterColumn {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+  left: 80px;
+
+  .MinWidthColumn {
+    Link {
+    }
+    //align-self: center;
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    //justify-items: center;
+  }
+}
+
