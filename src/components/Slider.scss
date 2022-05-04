@@ -1,0 +1,46 @@
+.Slider {
+    .Carousel-inside {
+        width: 70%;
+        height: 780px;
+        position: relative;
+        left: 30%;
+
+        #Burger {
+            background-image: url(../assets/main_page/burger.png);
+            width: 100%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size: 620px 450px;
+            position: relative;
+            top: 15%;
+        }
+
+        #Pizza {
+            background-image: url(../assets/main_page/pizza.png);
+            width: 100%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size: 650px 650px;
+        }
+
+        #Toast {
+            background-image: url(../assets/main_page/toast.png);
+            width: 100%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size: 620px 450px;
+            position: relative;
+            top: 15%;
+        }
+    }
+    .carousel-control-next-icon {
+        background-image: url(../assets/main_page/right.png);
+        width: 60px;
+        height: 60px;
+    }
+    .carousel-control-prev-icon {
+        background-image: url(../assets/main_page/left.png);
+        width: 60px;
+        height: 60px;
+    }
+}

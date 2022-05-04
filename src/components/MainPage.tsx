@@ -3,6 +3,10 @@ import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import Home from "./home";
 import About from "./about";
 import Dashboard from "./dashboard";
+import Menu from "./Menu";
+import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
+import Slider from "./Slider";
+import { ClassNames } from '@emotion/react';
 
 function MainPage() {
     const rollBack = () => {
@@ -12,14 +16,16 @@ function MainPage() {
             behavior: 'smooth',
         });
     }
+  
     return <div className="MainPage">
-        gersg
+        <Slider/>
+        <Menu/>
         <Routes>
             <Route path="/" element={<Home/>}/>
-            <Route path="/about" element={<About/>}/>
+            <Route path="/menu" element={<Menu/>}/>
             <Route path="/dashboard" element={<Dashboard/>}/>
         </Routes>
-        <button className="Return" onClick={rollBack}>qwesrdtfgyhjgf</button>
+        <button className="Return" onClick={rollBack}><KeyboardArrowUpIcon/></button>
     </div>
 
 }

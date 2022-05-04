@@ -12,26 +12,34 @@ function Header() {
         actived: "contained",
         deavited: "outlined"
     }
+    const rollMenu = () => {
+        window.scrollTo({
+            top: 1100,
+            left: 0,
+            behavior: 'smooth',
+        });
+    }
+    
 
     let [click, setClick] = useState(false)
 
     return <div className="Header">
         <div className="CenterColumn">
             <div className="MinWidthColumn">
-                header
-                <Link to="/">Home</Link>
-                <Link to="/dashboard">dashboard</Link>
-                <Link to="/about">about</Link>
+                <Link to="/">ГЛАВНАЯ</Link>
+                <Button variant='outlined' color='warning' onClick={rollMenu}>МЕНЮ</Button>
+                <Link to='/'>БЛОГ</Link>
+                <Link to='/about'>КОНТАКТЫ</Link>
             </div>
         </div>
-        <div className="LoginButton">
+        <div className="BookButton">
             {click
-                ? <Button variant="contained" onClick={() => {
+                ? <Button variant="contained" color='warning' onClick={() => {
                     setClick(!click)
-                }}>Contained</Button>
-                : <Button variant="outlined" onClick={() => {
+                }}>Забронировать</Button>
+                : <Button variant="outlined" color='warning' onClick={() => {
                     setClick(!click)
-                }}>Contained</Button>
+                }}>Забронировать</Button>
             }
         </div>
 

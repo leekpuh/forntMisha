@@ -1,13 +1,20 @@
+
 .Header {
+  a {
+    font-family: "Playfair Display";
+    font-size: 18px;
+    color: wheat;
+    font-weight: bold;
+    
+  }
   display: flex;
   width: 100%;
   justify-content: center;
-  height: 60px;
+  height: 80px;
   align-items: center;
-  background: white;
   //background: #61dafb;
   //justify-content: space-around;
-  .LoginButton {
+  .BookButton {
     display: flex;
     width: 10%;
   }
@@ -21,8 +28,7 @@
   left: 80px;
 
   .MinWidthColumn {
-    Link {
-    }
+
     //align-self: center;
     display: flex;
     width: 60%;

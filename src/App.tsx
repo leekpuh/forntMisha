@@ -12,7 +12,10 @@ import About from "./components/about";
 import Dashboard from "./components/dashboard";
 import MainPage from "./components/MainPage";
 import Header from "./components/Header";
+import PreHeader from "./components/PreHeader";
 import Footer from "./components/Footer";
+
+
 
 
 function App() {
@@ -32,6 +35,7 @@ function App() {
     return (
         <div className="WrapPage">
             <Router>
+                <PreHeader/>
                 <Header/>
                 <MainPage/>
             </Router>

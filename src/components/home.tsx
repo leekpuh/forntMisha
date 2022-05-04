@@ -1,14 +1,15 @@
 import React from 'react';
 import './MainPage.scss'
+import { ClassNames } from '@emotion/react';
 
 const style = {
     display: 'flex'
 }
+
+
 function Home(){
-    return <div>
-        home start
-        <div className="All">sdfghj</div>
-        home end
+    return <div className="All">
+         
     </div>
 }
 

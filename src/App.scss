@@ -1,3 +1,5 @@
+@import "~bootstrap/scss/bootstrap";
+
 .App {
   text-align: center;
 }
@@ -42,6 +44,12 @@
 .WrapPage{
   display: flex;
   min-height: 100%;
-  background: blueviolet;
+  //background: blueviolet;
   flex-direction: column;
+  background-image: url(/assets/main_page/main_background.jpg),
+                    url(/assets/main_page/5f5a03b9351d9.png),
+                    url(/assets/main_page/5fec644e710b9.png);
+  background-size: auto 950px, auto, auto;
+  background-repeat: no-repeat;
+  background-position: top, center 945px, center 690px;
 }

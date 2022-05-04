@@ -1,18 +1,18 @@
 .MainPage{
-  //height: 1000px;
   flex: 1 1 auto;
 }
 
 .All{
-  height: 10000px;
+  height: 3000px;
 }
 
 .Return{
-  height: 100px;
-  width: 100px;
+  height: 70px;
+  width: 70px;
+  border-radius: 60%;
   position: fixed;
   bottom: 10px;
   left: 10px;
+  background: transparentize($color: white, $amount: 0.7);
   //z-index: 1;
-  color: #61dafb;
 }
